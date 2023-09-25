@@ -8,8 +8,9 @@ import cv2, imutils
 
 
 print("Baglaniliyor")
+usb-id = "/dev/serial/by-id/usb-Hex_ProfiCNC_CubeOrange_310024001551393334373535-if00"
 baglanti_yolu = "127.0.0.1:14550"  #sitl(sim)
-rasp1 = "/dev/ttyACM0"
+rasp1 = "/dev/ttyACM0"   #jetson usb
 rasp2 = "/dev/ttyAMA0"   # rasp son kullanilan
 conect = "/dev/ttyUSB0"   #usb
 con = "/dev/serial0"  #serial
